@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="/src/css/custom.css">
+    <title>TailwindCSS</title>
+</head>
+
+<body>
+    
+<!-- header -->
+<section class="header">
+    <nav class="nav containers">
+
+        <figure class="nav__logo">
+            <img src="/src/images/logo.png" class="nav__img">
+        </figure>
+
+        <section class="nav__menu">
+
+            <ul class="nav__links">
+
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Atención al cliente</a>
+                </li>
+
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Productos</a>
+                </li>
+
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Ofertas</a>
+                </li>
+
+                <li class="nav__list">
+                    <a href="#" class="nav__link">Contacto</a>
+                </li>
+            </ul>
+        </section>
+
+        <label for="menu" class="nav__label">
+            <input type="checkbox" id="menu">
+        </label>
+    </nav>
+</section>
+
+
+
+
+
+<!-- VSL -->
+<section class="text-gray-600 body-font mt-5">
+    <div class="container mx-auto flex flex-col p-5 justify-center items-center">
+        <div class="w-full lg:w-2/3 md:w-3/4 mb-10 px-4">
+            <video controls class="w-full rounded">
+                <source src="images/¿Cómo hacer tu propio VÍDEO DE VENTAS 🎥 Hotmart Tips.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center px-2">
+            <h1 class="title-font sm:text-2xl text-3xl mb-4 font-medium text-gray-900">Descubri el Secreto para un Hogar más Confortable y Privado con Nuestras Cortinas Blackout</h1>
+            <p class="mb-8 leading-relaxed">Si te intereso nuestro producto no dudes en dejar tu teléfono para que un representante se comunique y te brindemos la atención que mereces</p>
+            <div class="flex w-full justify-center items-end">
+                <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+                    <label for="hero-field" class="leading-7 text-sm text-gray-600">¿Quieres dejarnos tu teléfono?</label>
+                    <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-solid text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:scale-125 rounded text-lg">Enviar</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    <!-- ¿Por qué elegirnos? -->
+
+
+
+
+    <section class="text-black body-font">
+        <div class="container px-5 py-24 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">¿Por qué somos tu mejor
+                    opcíon?</h2>
+            </div>
+            <div class="flex flex-wrap -m-4 text-center">
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M8 17l4 4 4-4m-4-5v9"></path>
+                            <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">2.7K usuarios contentos</h2>
+                        <p class="leading-relaxed text-black">Mejor tasa de envios del país</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">1.3K</h2>
+                        <p class="leading-relaxed">Usarios contentos con nuestro servicio</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">Atención especializada</h2>
+                        <p class="leading-relaxed">atención al cliente instantanea</p>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
+                    <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                        </svg>
+                        <h2 class="title-font font-medium text-3xl text-gray-900">Empresa nro 1 en Argentina</h2>
+                        <p class="leading-relaxed">mayor tasa de compras</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- testimonios -->
+
+    <section class="text-gray-600 body-font mb-56">
+        <div class="container px-5 py-24 mx-auto">
+            <h2 class="text-4xl font-bold title-font text-gray-900 mb-32 text-center">Testimonios</h2>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/2 w-full">
+                    <div class="h-full bg-gray-100 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">estamos muy satisfechos porque encargamos 2 rollers que llegaron
+                            en tiempo estipulado perfectamente confeccionadas de acuerdo a las medidas mandadas y
+                            correctamente embaladas... la atención personalizada de Fernando fue excelente... estamos
+                            muy contentos !!! felicitaciones que sigan los éxitos Saludos desde Colón Entre Ríos</p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="images/mujer1.jpg"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-gray-900">Marinaheinzen15</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/2 w-full">
+                    <div class="h-full bg-gray-100 p-8 rounded flex flex-col justify-between"> <!-- Cambiado: Añadido 'flex flex-col justify-between' -->
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                                <path
+                                    d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                                </path>
+                            </svg>
+                            <p class="leading-relaxed mb-6">Gracias por tanta responsabilidad, compromiso y profesionalidad... excelente trabajo, las cortinas son una belleza, el embalaje super prolijo y cuidadoso para el producto. gracias 100% recomendable en precio, calidad y atención</p>
+                        </div>
+                        <div class="mt-auto"> <!-- Cambiado: Añadido 'mt-auto' para empujar el contenido hacia abajo -->
+                            <a class="inline-flex items-center">
+                                <img alt="testimonial" src="images/mujer2.png"
+                                    class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                                <div class="flex-grow flex pl-4"> <!-- Cambiado: Envuelto en un div adicional -->
+                                    <span class="title-font font-medium text-gray-900">Micaela Marcone</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-black body-font border-t-4 border-solid border-black rounded-t-3xl shadow-black pt-6">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 w-28">
+                <img class="object-cover" src="images/logo.png" alt="logo">
+            </a>
+            <input type="email" placeholder="example@gmail.com"
+                class="ml-10 mt-2 flex justify-center items-end placeholder-gray-500 placeholder-opacity-50 border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+            <a class="mt-2 bg-blue-600 hover:bg-sky-700 p-2 mx-3 rounded-full" href="#">Quiero recibir ofertas</a>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a href="https://www.facebook.com/CortinasBlackHouse/?locale=es_LA" class="text-black cursor-pointer">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/blackhousecortinas/?hl=es" class="ml-3 text-black cursor-pointer">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>
