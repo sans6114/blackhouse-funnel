@@ -4,6 +4,8 @@
   },
   "scripts": {
     "scanTailwind": "npx tailwindcss -i ./src/css/config.css -o ./src/css/output.css --watch"
+  },
+  "dependencies": {
+    "flowbite": "^2.3.0"
   }
 }
-
