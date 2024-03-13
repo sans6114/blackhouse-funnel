@@ -26,114 +26,130 @@
     <!-- sidebar de productos -->
 
     <section class="h-screen px-10 mt-10 mb-10 bg w-screen">
-
-        <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar"
-            type="button"
-            class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
-            <span class="sr-only">Open sidebar</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path clip-rule="evenodd" fill-rule="evenodd"
-                    d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z">
-                </path>
-            </svg>
-        </button>
-
-        <aside id="logo-sidebar"
-            class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-black"
-            aria-label="Sidebar">
-            <div class="h-full px-3 py-4 overflow-y-auto dark:bg-gray-800">
-                <div class="flex flex-col">
-                    <img src="../src/images/logo2.png" class="w-32 me-3 self-center" alt="Flowbite Logo" />
-                    <a href="../index.html" class="flex items-center ps-2.5 mb-5 self-center mt-5">
-                        <span class="self-center text-xl font-semibold whitespace-nowrap text-white">Blackhouse</span>
-                    </a>
-                </div>
-
-                <ul class="space-y-2 font-medium">
-                    <li>
-                        <a href="./descubre.html"
-                            class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <svg class="flex-shrink-0 w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                viewBox="0 0 18 18">
-                                <path
-                                    d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
-                            </svg>
-                            <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">productos</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="descubre-ganancias.html"
-                            class="flex items-center p-2 text-black rounded-lg dark:text-white hover:bg-gray-100 group bg-white">
-                            <svg class="w-5 h-5 text-black transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black"
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                                viewBox="0 0 22 21">
-                                <path
-                                    d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
-                                <path
-                                    d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
-                            </svg>
-                            <span class="ms-3 hover:text-black">ganancias</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="revendedores.html"
-                            class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <svg class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M4 4H1m3 4H1m3 4H1m3 4H1m6.071.286a3.429 3.429 0 1 1 6.858 0M4 1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Zm9 6.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
-                            </svg>
-                            <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">revendedores</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://blackhouse.com.ar/blackhouse/web/login"
-                            class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
-                            <svg class="flex-shrink-0 w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 16">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2"
-                                    d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
-                            </svg>
-                            <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">Soy revendedor</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </aside>
-
+        <div class="text-center">
+            <button
+                class="text-white bg-white focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                type="button" data-drawer-target="drawer-navigation" data-drawer-show="drawer-navigation"
+                aria-controls="drawer-navigation">
+                <img src="../src/images/logo.png" alt="logo para navegacion" class="w-40">
+            </button>
+        </div>
         <div class="mt-10">
-
-            <div class="mt-10 flex flex-col justify-center items-end">
+            <div class="mt-10 flex flex-col justify-center items-center">
                 <div class="w-1/2 flex flex-col mt-10 text-center">
                     <h1
-                    class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                    Ganancias aseguradas siendo <span class="text-blue-600 dark:text-blue-500">revendedor</span></h1>
-                <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at Flowbite we focus on
-                    markets where technology, innovation, and capital can unlock long-term value and drive economic growth.
-                </p>
-                <div 
-                class=" mt-10 relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl self-end">
-                <div class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute">
-                </div>
-                <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg"></div>
-                <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg"></div>
-                <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg"></div>
-                <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-light.png"
-                        class="dark:hidden w-[272px] h-[572px]" alt="">
-                    <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-dark.png"
-                        class="hidden dark:block w-[272px] h-[572px]" alt="">
+                        class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                        Ganancias aseguradas siendo <span class="text-blue-600 dark:text-blue-500">revendedor</span>
+                    </h1>
+                    <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at Flowbite we
+                        focus on
+                        markets where technology, innovation, and capital can unlock long-term value and drive
+                        economic growth.
+                    </p>
+                    <div
+                        class=" mt-10 relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[14px] rounded-[2.5rem] h-[600px] w-[300px] shadow-xl self-end">
+                        <div
+                            class="w-[148px] h-[18px] bg-gray-800 top-0 rounded-b-[1rem] left-1/2 -translate-x-1/2 absolute">
+                        </div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[124px] rounded-s-lg">
+                        </div>
+                        <div class="h-[46px] w-[3px] bg-gray-800 absolute -start-[17px] top-[178px] rounded-s-lg">
+                        </div>
+                        <div class="h-[64px] w-[3px] bg-gray-800 absolute -end-[17px] top-[142px] rounded-e-lg">
+                        </div>
+                        <div class="rounded-[2rem] overflow-hidden w-[272px] h-[572px] bg-white dark:bg-gray-800">
+                            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-light.png"
+                                class="dark:hidden w-[272px] h-[572px]" alt="">
+                            <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/mockup-2-dark.png"
+                                class="hidden dark:block w-[272px] h-[572px]" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
-                </div>
-    
-        
-        </div>
+        <!-- drawer component -->
+        <div id="drawer-navigation"
+            class="fixed top-0 left-0 z-40 w-64 h-screen p-4 overflow-y-auto transition-transform -translate-x-full bg-white dark:bg-gray-800"
+            tabindex="-1" aria-labelledby="drawer-navigation-label">
+            <h5 id="drawer-navigation-label" class="text-base font-semibold text-gray-500 uppercase dark:text-gray-400">
+                Menu</h5>
+            <button type="button" data-drawer-hide="drawer-navigation" aria-controls="drawer-navigation"
+                class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 absolute top-2.5 end-2.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white">
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <span class="sr-only">Close menu</span>
+            </button>
+            <aside id="logo-sidebar"
+                class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0 bg-black"
+                aria-label="Sidebar">
+                <div class="h-full px-3 py-4 overflow-y-auto dark:bg-gray-800">
+                    <div class="flex flex-col">
+                        <img src="../src/images/logo2.png" class="w-32 me-3 self-center" alt="Flowbite Logo" />
+                        <a href="../index.html" class="flex items-center ps-2.5 mb-5 self-center mt-5">
+                            <span
+                                class="self-center text-xl font-semibold whitespace-nowrap text-white">Blackhouse</span>
+                        </a>
+                    </div>
 
+                    <ul class="space-y-2 font-medium">
+                        <li>
+                            <a href="./descubre.html"
+                                class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 18 18">
+                                    <path
+                                        d="M6.143 0H1.857A1.857 1.857 0 0 0 0 1.857v4.286C0 7.169.831 8 1.857 8h4.286A1.857 1.857 0 0 0 8 6.143V1.857A1.857 1.857 0 0 0 6.143 0Zm10 0h-4.286A1.857 1.857 0 0 0 10 1.857v4.286C10 7.169 10.831 8 11.857 8h4.286A1.857 1.857 0 0 0 18 6.143V1.857A1.857 1.857 0 0 0 16.143 0Zm-10 10H1.857A1.857 1.857 0 0 0 0 11.857v4.286C0 17.169.831 18 1.857 18h4.286A1.857 1.857 0 0 0 8 16.143v-4.286A1.857 1.857 0 0 0 6.143 10Zm10 0h-4.286A1.857 1.857 0 0 0 10 11.857v4.286c0 1.026.831 1.857 1.857 1.857h4.286A1.857 1.857 0 0 0 18 16.143v-4.286A1.857 1.857 0 0 0 16.143 10Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">productos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="descubre-ganancias.html"
+                                class="flex items-center p-2 text-black rounded-lg dark:text-white hover:bg-gray-100 group bg-white">
+                                <svg class="w-5 h-5 text-black transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                    viewBox="0 0 22 21">
+                                    <path
+                                        d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
+                                    <path
+                                        d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
+                                </svg>
+                                <span class="ms-3 hover:text-black">ganancias</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="revendedores.html"
+                                class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-black"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 18 20">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 4H1m3 4H1m3 4H1m3 4H1m6.071.286a3.429 3.429 0 1 1 6.858 0M4 1h12a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1Zm9 6.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">revendedores</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blackhouse.com.ar/blackhouse/web/login"
+                                class="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                                <svg class="flex-shrink-0 w-5 h-5 text-white transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                    viewBox="0 0 18 16">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M1 8h11m0 0L8 4m4 4-4 4m4-11h3a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-3" />
+                                </svg>
+                                <span class="flex-1 ms-3 whitespace-nowrap hover:text-black">Soy revendedor</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
     </section>
 
 
