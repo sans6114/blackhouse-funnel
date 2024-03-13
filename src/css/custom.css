@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    --url-menu: url("/src/images/menu.svg");
+    --url-menu: url("./menu.svg");
     --opacity-menu: 0;
     --transform-menu: translateY(-120%);
     --pointer-menu: none;
@@ -14,7 +14,7 @@
 }
 
 .nav:has( :checked) {
-    --url-menu: url("/src/images/close.svg");
+    --url-menu: url("./close.svg");
     --opacity-menu: 1;
     --transform-menu: translate(0);
     --pointer-menu: unset;
