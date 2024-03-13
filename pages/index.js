@@ -1,20 +1,19 @@
-// Función para abrir y cerrar el menú lateral
+// Función para abrir y cerrar la barra lateral
 function toggleSidebar() {
-    var sidebar = document.getElementById('logo-sidebar');
-    sidebar.classList.toggle('-translate-x-full'); // Cambia la clase para mostrar u ocultar el menú
+    var sidebar = document.getElementById("logo-sidebar");
+    sidebar.classList.toggle("-translate-x-full");
 }
 
-// Función para cerrar el menú lateral
-// Función para cerrar el menú lateral
-function closeSidebar() {
-    var sidebar = document.getElementById('logo-sidebar');
-    sidebar.classList.remove('-translate-x-full'); // Remueve la clase para ocultar el menú
+// Función para cerrar la barra lateral si se hace clic fuera de ella
+function closeSidebarOnClickOutside(event) {
+    var sidebar = document.getElementById("logo-sidebar");
+    var sidebarButton = document.querySelector("[data-drawer-toggle='logo-sidebar']");
+
+    // Si se hace clic fuera de la barra lateral y no en el botón que la abre, cerrar la barra lateral
+    if (!sidebar.contains(event.target) && !sidebarButton.contains(event.target)) {
+        sidebar.classList.add("-translate-x-full");
+    }
 }
 
-
-// Obtén el botón del menú
-var menuButton = document.querySelector('[data-drawer-toggle="logo-sidebar"]');
-// Agrega un evento de clic al botón para abrir y cerrar el menú
-menuButton.addEventListener('click', function() {
-    toggleSidebar();
-});
+// Agregar un evento de clic al documento para cerrar la barra lateral cuando se hace clic fuera de ella
+document.addEventListener("click", closeSidebarOnClickOutside);
